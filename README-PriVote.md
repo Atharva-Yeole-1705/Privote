@@ -6,8 +6,6 @@ PriVote is a mini-project demonstrating **zero-knowledge proofs (ZKPs)** and pri
 
 The application uses React for the frontend, Node.js and Express for the backend, and Semaphore's JavaScript libraries for identity commitments, group membership, and proof generation/verification. It uses local JSON files instead of a database.
 
-> **Demo limitation:** This is an educational local demo, not a production election system. Identity secrets are stored in the server-side `secrets.json` file, and the backend's voter selector is a testing convenience. A server operator who can read that file can impersonate members, so the current design does not protect voters from a malicious server operator. Do not deploy it for real or binding elections without redesigning key custody, administration, ballot integrity, and auditing.
-
 ## Problem Statement
 
 Build a privacy-preserving student voting system in which only authorized group members can submit a vote, while the verification process does not require the vote record to contain the student's name or public identity key.
@@ -76,5 +74,5 @@ These JSON files are created on first startup and are intentionally excluded fro
 - **React + Vite and Node.js + Express:** frontend and backend technologies.
 
 ## Demo Link
+https://youtu.be/AhvsYms81aY
 
-**Not deployed yet.** Run the project locally using the instructions above. Once the application is deployed, replace this line with the public demo URL.
